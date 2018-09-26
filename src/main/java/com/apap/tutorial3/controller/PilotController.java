@@ -75,7 +75,7 @@ public class PilotController {
 					}
 				}
 				else {
-					model.addAttribute("typeError", "licenseNumber tidak ditemukan");
+					model.addAttribute("typeError", "licenseNumber tidak dapat ditemukan");
 					return "error";
 				}
 			}
@@ -94,7 +94,7 @@ public class PilotController {
 					return "delete";
 				}
 				else {
-					model.addAttribute("typeError", "id tidak ditemukan");
+					model.addAttribute("typeError", "id tidak dapat ditemukan");
 					return "error";
 				}
 			}
